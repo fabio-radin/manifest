@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="origin" fetch="https://github.com/SamsungARTIK/" />
+	<default revision="A710_os_1.0.0"
+		remote="origin"
+		sync-j="4" />
+	<project name="u-boot-artik" path="u-boot-artik" groups="artik710-bsp"/>
+	<project name="linux-artik" path="linux-artik" groups="artik710-bsp"/>
+	<project name="build-artik" path="build-artik" groups="artik710-bsp"/>
+	<project name="boot-firmwares-artik710" path="boot-firmwares-artik710" groups="artik710-bsp"/>
+	<project name="artik-plugin" path="artik-plugin" groups="artik-fedora"/>
+	<project name="artik-plugin-artik710" path="artik-plugin-artik710" groups="artik-fedora"/>
+	<project name="bluez" path="bluez" groups="artik-fedora"/>
+	<project name="coap" path="coap" groups="artik-fedora"/>
+	<project name="gst-plugins-camera-s5p6818" path="gst-plugins-camera-s5p6818" groups="artik-fedora"/>
+	<project name="gst-plugins-renderer" path="gst-plugins-renderer" groups="artik-fedora"/>
+	<project name="gst-plugins-scaler" path="gst-plugins-scaler" groups="artik-fedora"/>
+	<project name="gst-plugins-video-dec" path="gst-plugins-video-dec" groups="artik-fedora"/>
+	<project name="gst-plugins-video-enc" path="gst-plugins-video-enc" groups="artik-fedora"/>
+	<project name="gst-plugins-video-sink" path="gst-plugins-video-sink" groups="artik-fedora"/>
+	<project name="initrd-artik" path="initrd-artik" groups="artik-fedora"/>
+	<project name="iotivity" path="iotivity" groups="artik-fedora"/>
+	<project name="libdrm" path="libdrm" groups="artik-fedora"/>
+	<project name="lwm2m" path="lwm2m" groups="artik-fedora"/>
+	<project name="mqttsn" path="mqttsn" groups="artik-fedora"/>
+	<project name="mqttsn_gateway" path="mqttsn_gateway" groups="artik-fedora"/>
+	<project name="nx-drm-allocator" path="nx-drm-allocator" groups="artik-fedora"/>
+	<project name="nx-gst-meta" path="nx-gst-meta" groups="artik-fedora"/>
+	<project name="nx-renderer" path="nx-renderer" groups="artik-fedora"/>
+	<project name="nx-scaler" path="nx-scaler" groups="artik-fedora"/>
+	<project name="nx-video-api" path="nx-video-api" groups="artik-fedora"/>
+	<project name="nx-v4l2" path="nx-v4l2" groups="artik-fedora"/>
+	<project name="sbc" path="sbc" groups="artik-fedora"/>
+	<project name="fedora-spin-kickstarts" path="spin-kickstarts" groups="artik-fedora"/>
+</manifest>
