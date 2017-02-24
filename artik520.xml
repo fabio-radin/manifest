@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="origin" fetch="https://github.com/SamsungARTIK/" />
+	<default revision="A520_os_2.0.0"
+		remote="origin"
+		sync-j="4" />
+	<project name="u-boot-artik" path="u-boot-artik" groups="artik520-bsp"/>
+	<project name="linux-artik" path="linux-artik" groups="artik520-bsp"/>
+	<project name="build-artik" path="build-artik" groups="artik520-bsp"/>
+	<project name="boot-firmwares-artik520" path="boot-firmwares-artik520" groups="artik520-bsp"/>
+	<project name="artik-plugin" path="artik-plugin" groups="artik-fedora"/>
+	<project name="artik-plugin-artik5" path="artik-plugin-artik5" groups="artik-fedora"/>
+	<project name="bluez" path="bluez" groups="artik-fedora"/>
+	<project name="coap" path="coap" groups="artik-fedora"/>
+	<project name="initrd-artik" path="initrd-artik" groups="artik-fedora"/>
+	<project name="iotivity" path="iotivity" groups="artik-fedora"/>
+	<project name="libdrm" path="libdrm" groups="artik-fedora"/>
+	<project name="lwm2m" path="lwm2m" groups="artik-fedora"/>
+	<project name="mqttsn" path="mqttsn" groups="artik-fedora"/>
+	<project name="mqttsn_gateway" path="mqttsn_gateway" groups="artik-fedora"/>
+	<project name="sbc" path="sbc" groups="artik-fedora"/>
+	<project name="fedora-spin-kickstarts" path="spin-kickstarts" groups="artik-fedora"/>
+</manifest>
