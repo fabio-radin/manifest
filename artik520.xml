@@ -7,7 +7,7 @@
 	<project name="u-boot-artik" path="u-boot-artik" groups="artik520-bsp"/>
 	<project name="linux-artik" path="linux-artik" groups="artik520-bsp"/>
 	<project name="build-artik" path="build-artik" groups="artik520-bsp"/>
-	<project name="boot-firmwares-artik520" path="boot-firmwares-artik520" groups="artik520-bsp"/>
+	<project name="boot-firmwares-artik5" path="boot-firmwares-artik5" groups="artik520-bsp"/>
 	<project name="artik-plugin" path="artik-plugin" groups="artik-fedora"/>
 	<project name="artik-plugin-artik5" path="artik-plugin-artik5" groups="artik-fedora"/>
 	<project name="bluez" path="bluez" groups="artik-fedora"/>
