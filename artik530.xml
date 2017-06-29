@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="origin" fetch="https://github.com/SamsungARTIK/" />
-	<default revision="A530_os_1.0.0"
+	<default revision="A530_os_2.0.0"
 		remote="origin"
 		sync-j="4" />
 	<project name="u-boot-artik" path="u-boot-artik" groups="artik530-bsp"/>
@@ -36,4 +36,5 @@
 	<project name="curl" path="curl" groups="artik-fedora"/>
 	<project name="wpa_supplicant" path="wpa_supplicant" groups="artik-fedora"/>
 	<project name="artik-repos" path="artik-repos" groups="artik-fedora"/>
+	<project name="artik-ota" path="artik-ota" groups="artik-fedora"/>
 </manifest>
