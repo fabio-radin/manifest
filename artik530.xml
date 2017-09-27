@@ -1,40 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="origin" fetch="https://github.com/SamsungARTIK/" />
-	<default revision="A530_os_2.1.0"
+	<default revision="A530_os_3.0.0"
 		remote="origin"
 		sync-j="4" />
 	<project name="u-boot-artik" path="u-boot-artik" groups="artik530-bsp"/>
 	<project name="linux-artik" path="linux-artik" groups="artik530-bsp"/>
 	<project name="build-artik" path="build-artik" groups="artik530-bsp"/>
 	<project name="boot-firmwares-artik530" path="boot-firmwares-artik530" groups="artik530-bsp"/>
-	<project name="artik-plugin" path="artik-plugin" groups="artik-fedora"/>
-	<project name="artik-plugin-artik530" path="artik-plugin-artik530" groups="artik-fedora"/>
-	<project name="bluez" path="bluez" groups="artik-fedora"/>
-	<project name="coap" path="coap" groups="artik-fedora"/>
-	<project name="gst-plugins-camera-s5p6818" path="gst-plugins-camera-s5p6818" groups="artik-fedora"/>
-	<project name="gst-plugins-renderer" path="gst-plugins-renderer" groups="artik-fedora"/>
-	<project name="gst-plugins-scaler" path="gst-plugins-scaler" groups="artik-fedora"/>
-	<project name="gst-plugins-video-dec" path="gst-plugins-video-dec" groups="artik-fedora"/>
-	<project name="gst-plugins-video-enc" path="gst-plugins-video-enc" groups="artik-fedora"/>
-	<project name="gst-plugins-video-sink" path="gst-plugins-video-sink" groups="artik-fedora"/>
-	<project name="initrd-artik" path="initrd-artik" groups="artik-fedora"/>
-	<project name="iotivity" path="iotivity" groups="artik-fedora"/>
-	<project name="libdrm" path="libdrm" groups="artik-fedora"/>
-	<project name="lwm2m" path="lwm2m" groups="artik-fedora"/>
-	<project name="mqttsn" path="mqttsn" groups="artik-fedora"/>
-	<project name="mqttsn_gateway" path="mqttsn_gateway" groups="artik-fedora"/>
-	<project name="nx-drm-allocator" path="nx-drm-allocator" groups="artik-fedora"/>
-	<project name="nx-gst-meta" path="nx-gst-meta" groups="artik-fedora"/>
-	<project name="nx-renderer" path="nx-renderer" groups="artik-fedora"/>
-	<project name="nx-scaler" path="nx-scaler" groups="artik-fedora"/>
-	<project name="nx-video-api" path="nx-video-api" groups="artik-fedora"/>
-	<project name="nx-v4l2" path="nx-v4l2" groups="artik-fedora"/>
-	<project name="sbc" path="sbc" groups="artik-fedora"/>
-	<project name="fedora-spin-kickstarts" path="spin-kickstarts" groups="artik-fedora"/>
-	<project name="openssl" path="openssl" groups="artik-fedora"/>
-	<project name="curl" path="curl" groups="artik-fedora"/>
-	<project name="wpa_supplicant" path="wpa_supplicant" groups="artik-fedora"/>
-	<project name="artik-repos" path="artik-repos" groups="artik-fedora"/>
-	<project name="artik-ota" path="artik-ota" groups="artik-fedora"/>
+	<project name="artik-ota" path="artik-ota" groups="artik-ubuntu"/>
+	<project name="artik-repos" path="artik-repos" groups="artik-ubuntu"/>
+	<project name="artik-ubuntu-meta" path="artik-ubuntu-meta" groups="artik-ubuntu"/>
+	<project name="artik-plugin" path="artik-plugin" groups="artik-ubuntu"/>
+	<project name="artik-plugin-artik530" path="artik-plugin-artik530" groups="artik-ubuntu"/>
+	<project name="bluez" path="bluez" groups="artik-ubuntu"/>
+	<project name="coap" path="coap" groups="artik-ubuntu"/>
+	<project name="connman" path="connman" groups="artik-ubuntu"/>
+	<project name="gst-plugins-camera-s5p6818" path="gst-plugins-camera-s5p6818" groups="artik-ubuntu"/>
+	<project name="gst-plugins-renderer" path="gst-plugins-renderer" groups="artik-ubuntu"/>
+	<project name="gst-plugins-scaler" path="gst-plugins-scaler" groups="artik-ubuntu"/>
+	<project name="gst-plugins-video-dec" path="gst-plugins-video-dec" groups="artik-ubuntu"/>
+	<project name="gst-plugins-video-enc" path="gst-plugins-video-enc" groups="artik-ubuntu"/>
+	<project name="gst-plugins-video-sink" path="gst-plugins-video-sink" groups="artik-ubuntu"/>
+	<project name="initrd-artik" path="initrd-artik" groups="artik-ubuntu"/>
+	<project name="iotivity" path="iotivity" groups="artik-ubuntu"/>
+	<project name="libdrm" path="libdrm" groups="artik-ubuntu"/>
+	<project name="lwm2m" path="lwm2m" groups="artik-ubuntu"/>
+	<project name="mqttsn" path="mqttsn" groups="artik-ubuntu"/>
+	<project name="mqttsn_gateway" path="mqttsn_gateway" groups="artik-ubuntu"/>
+	<project name="nx-drm-allocator" path="nx-drm-allocator" groups="artik-ubuntu"/>
+	<project name="nx-gst-meta" path="nx-gst-meta" groups="artik-ubuntu"/>
+	<project name="nx-renderer" path="nx-renderer" groups="artik-ubuntu"/>
+	<project name="nx-scaler" path="nx-scaler" groups="artik-ubuntu"/>
+	<project name="nx-video-api" path="nx-video-api" groups="artik-ubuntu"/>
+	<project name="nx-v4l2" path="nx-v4l2" groups="artik-ubuntu"/>
+	<project name="ubuntu-build-service" path="ubuntu-build-service" groups="artik-ubuntu"/>
+	<project name="wayland-protocols" path="wayland-protocols" groups="artik-ubuntu"/>
+	<project name="wayland" path="wayland" groups="artik-ubuntu"/>
+	<project name="weston" path="weston" groups="artik-ubuntu"/>
+	<project name="wpa_supplicant" path="wpa_supplicant" groups="artik-ubuntu"/>
+	<project name="xf86-video-armsoc" path="xf86-video-armsoc" groups="artik-ubuntu"/>
 </manifest>
