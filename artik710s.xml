@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="origin" fetch="https://github.com/SamsungARTIK/" />
+	<default revision="A710s_os_3.0.0"
+		remote="origin"
+		sync-j="4" />
+	<project name="u-boot-artik" path="u-boot-artik" groups="artik710s-bsp"/>
+	<project name="linux-artik" path="linux-artik" groups="artik710s-bsp"/>
+	<project name="build-artik" path="build-artik" groups="artik710s-bsp"/>
+	<project name="boot-firmwares-artik710s" path="boot-firmwares-artik710s" groups="artik710s-bsp"/>
+	<project name="artik-ota" path="artik-ota" groups="artik-ubuntu"/>
+	<project name="artik-repos" path="artik-repos" groups="artik-ubuntu"/>
+	<project name="artik-ubuntu-meta" path="artik-ubuntu-meta" groups="artik-ubuntu"/>
+	<project name="artik-plugin" path="artik-plugin" groups="artik-ubuntu"/>
+	<project name="artik-plugin-artik710" path="artik-plugin-artik710" groups="artik-ubuntu"/>
+	<project name="bluez" path="bluez" groups="artik-ubuntu"/>
+	<project name="coap" path="coap" groups="artik-ubuntu"/>
+	<project name="connman" path="connman" groups="artik-ubuntu"/>
+	<project name="gst-plugins-camera-s5p6818" path="gst-plugins-camera-s5p6818" groups="artik-ubuntu"/>
+	<project name="gst-plugins-renderer" path="gst-plugins-renderer" groups="artik-ubuntu"/>
+	<project name="gst-plugins-scaler" path="gst-plugins-scaler" groups="artik-ubuntu"/>
+	<project name="gst-plugins-video-dec" path="gst-plugins-video-dec" groups="artik-ubuntu"/>
+	<project name="gst-plugins-video-enc" path="gst-plugins-video-enc" groups="artik-ubuntu"/>
+	<project name="gst-plugins-video-sink" path="gst-plugins-video-sink" groups="artik-ubuntu"/>
+	<project name="initrd-artik" path="initrd-artik" groups="artik-ubuntu"/>
+	<project name="iotivity" path="iotivity" groups="artik-ubuntu"/>
+	<project name="libdrm" path="libdrm" groups="artik-ubuntu"/>
+	<project name="lwm2m" path="lwm2m" groups="artik-ubuntu"/>
+	<project name="mqttsn" path="mqttsn" groups="artik-ubuntu"/>
+	<project name="mqttsn_gateway" path="mqttsn_gateway" groups="artik-ubuntu"/>
+	<project name="nx-drm-allocator" path="nx-drm-allocator" groups="artik-ubuntu"/>
+	<project name="nx-gst-meta" path="nx-gst-meta" groups="artik-ubuntu"/>
+	<project name="nx-renderer" path="nx-renderer" groups="artik-ubuntu"/>
+	<project name="nx-scaler" path="nx-scaler" groups="artik-ubuntu"/>
+	<project name="nx-video-api" path="nx-video-api" groups="artik-ubuntu"/>
+	<project name="nx-v4l2" path="nx-v4l2" groups="artik-ubuntu"/>
+	<project name="ubuntu-build-service" path="ubuntu-build-service" groups="artik-ubuntu"/>
+	<project name="wayland-protocols" path="wayland-protocols" groups="artik-ubuntu"/>
+	<project name="wayland" path="wayland" groups="artik-ubuntu"/>
+	<project name="weston" path="weston" groups="artik-ubuntu"/>
+	<project name="wpa_supplicant" path="wpa_supplicant" groups="artik-ubuntu"/>
+	<project name="xf86-video-armsoc" path="xf86-video-armsoc" groups="artik-ubuntu"/>
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="origin" fetch="https://github.com/SamsungARTIK/" />
+	<default revision="A533s_os_3.0.0"
+		remote="origin"
+		sync-j="4" />
+	<project name="u-boot-artik" path="u-boot-artik" groups="artik533s-bsp"/>
+	<project name="linux-artik" path="linux-artik" groups="artik533s-bsp"/>
+	<project name="build-artik" path="build-artik" groups="artik533s-bsp"/>
+	<project name="boot-firmwares-artik533s" path="boot-firmwares-artik533s" groups="artik533s-bsp"/>
+</manifest>
