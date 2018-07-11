@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="origin" fetch="https://github.com/SamsungARTIK/" />
+	<default revision="ARTIK-SW-18.05.00"
+		remote="origin"
+		sync-j="4" />
+	<include name="artik-nexell-gen2/boot-firmwares.xml" />
+	<include name="artik-nexell-gen2/bsp.xml" />
+	<include name="artik-nexell-gen2/nexell-plugins.xml" />
+	<include name="artik-nexell-gen2/ubuntu-xenial.xml" />
+</manifest>

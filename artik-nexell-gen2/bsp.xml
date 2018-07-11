@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project name="u-boot-artik" path="u-boot-artik" groups="bsp"/>
+	<project name="linux-artik" path="linux-artik" groups="bsp"/>
+	<project name="initrd-artik" path="initrd-artik" groups="bsp"/>
+	<project name="build-artik" path="build-artik" groups="bsp"/>
+</manifest>

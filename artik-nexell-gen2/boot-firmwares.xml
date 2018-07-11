@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project name="boot-firmwares-artik710" path="boot-firmwares-artik710" groups="boot-firmwares"/>
+	<project name="boot-firmwares-artik710s" path="boot-firmwares-artik710s" groups="boot-firmwares"/>
+	<project name="boot-firmwares-artik530" path="boot-firmwares-artik530" groups="boot-firmwares"/>
+	<project name="boot-firmwares-artik530s" path="boot-firmwares-artik530s" groups="boot-firmwares"/>
+	<project name="boot-firmwares-artik533s" path="boot-firmwares-artik533s" groups="boot-firmwares"/>
+</manifest>

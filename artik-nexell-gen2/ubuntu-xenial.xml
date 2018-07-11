@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project name="libdrm" path="libdrm" groups="ubuntu"/>
+	<project name="artik-plugin" path="artik-plugin" groups="ubuntu"/>
+	<project name="artik-plugin-artik710" path="artik-plugin-artik710" groups="ubuntu"/>
+	<project name="artik-plugin-artik530" path="artik-plugin-artik530" groups="ubuntu"/>
+	<project name="artik-repos" path="artik-repos" groups="ubuntu"/>
+	<project name="wpa_supplicant" path="wpa_supplicant" groups="ubuntu"/>
+	<project name="bluez" path="bluez" groups="ubuntu"/>
+	<project name="connman" path="connman" groups="ubuntu"/>
+	<project name="wayland" path="wayland" groups="ubuntu"/>
+	<project name="wayland-protocols" path="wayland-protocols" groups="ubuntu"/>
+	<project name="weston" path="weston" groups="ubuntu"/>
+	<project name="xf86-video-armsoc" path="xf86-video-armsoc" groups="ubuntu"/>
+	<project name="artik-ubuntu-meta" path="artik-ubuntu-meta" groups="ubuntu"/>
+	<project name="ubuntu-build-service" path="ubuntu-build-service" groups="ubuntu"/>
+</manifest>
