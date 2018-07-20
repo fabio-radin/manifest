@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="origin" fetch="https://github.com/SamsungARTIK/" />
+	<default revision="A305s-OS-18.05.00"
+		remote="origin"
+		sync-j="4" />
+	<project name="u-boot-artik" path="u-boot-artik" groups="artik305s-bsp"/>
+	<project name="linux-artik" path="linux-artik" groups="artik305s-bsp"/>
+	<project name="build-artik" path="build-artik" groups="artik305s-bsp"/>
+	<project name="boot-firmwares-artik305s" path="boot-firmwares-artik305s" groups="artik305s-bsp"/>
+</manifest>

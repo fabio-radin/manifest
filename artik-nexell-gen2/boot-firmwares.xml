@@ -5,4 +5,5 @@
 	<project name="boot-firmwares-artik530" path="boot-firmwares-artik530" groups="boot-firmwares"/>
 	<project name="boot-firmwares-artik530s" path="boot-firmwares-artik530s" groups="boot-firmwares"/>
 	<project name="boot-firmwares-artik533s" path="boot-firmwares-artik533s" groups="boot-firmwares"/>
+	<project name="boot-firmwares-artik305s" path="boot-firmwares-artik305s" groups="boot-firmwares"/>
 </manifest>

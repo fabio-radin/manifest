@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="origin" fetch="https://github.com/SamsungARTIK/" />
+	<default revision="A305s-OS-18.05.00"
+		remote="origin"
+		sync-j="4" />
+	<project name="u-boot-artik" path="u-boot-artik" groups="artik305s-bsp"/>
+	<project name="linux-artik" path="linux-artik" groups="artik305s-bsp"/>
+	<project name="build-artik" path="build-artik" groups="artik305s-bsp"/>
+	<project name="boot-firmwares-artik305s" path="boot-firmwares-artik305s" groups="artik305s-bsp"/>
+	<project name="artik-ota" path="artik-ota" groups="artik-ubuntu"/>
+	<project name="artik-repos" path="artik-repos" groups="artik-ubuntu"/>
+	<project name="artik-ubuntu-meta" path="artik-ubuntu-meta" groups="artik-ubuntu"/>
+	<project name="artik-plugin" path="artik-plugin" groups="artik-ubuntu"/>
+	<project name="artik-plugin-artik530" path="artik-plugin-artik530" groups="artik-ubuntu"/>
+	<project name="bluez" path="bluez" groups="artik-ubuntu"/>
+	<project name="coap" path="coap" groups="artik-ubuntu"/>
+	<project name="connman" path="connman" groups="artik-ubuntu"/>
+	<project name="initrd-artik" path="initrd-artik" groups="artik-ubuntu"/>
+	<project name="iotivity" path="iotivity" groups="artik-ubuntu"/>
+	<project name="lwm2m" path="lwm2m" groups="artik-ubuntu"/>
+	<project name="mqttsn" path="mqttsn" groups="artik-ubuntu"/>
+	<project name="mqttsn_gateway" path="mqttsn_gateway" groups="artik-ubuntu"/>
+	<project name="ubuntu-build-service" path="ubuntu-build-service" groups="artik-ubuntu"/>
+	<project name="wpa_supplicant" path="wpa_supplicant" groups="artik-ubuntu"/>
+</manifest>
