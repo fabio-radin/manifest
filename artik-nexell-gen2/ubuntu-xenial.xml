@@ -13,5 +13,10 @@
 	<project name="weston" path="weston" groups="ubuntu"/>
 	<project name="xf86-video-armsoc" path="xf86-video-armsoc" groups="ubuntu"/>
 	<project name="artik-ubuntu-meta" path="artik-ubuntu-meta" groups="ubuntu"/>
+	<project name="coap" path="coap" groups="ubuntu"/>
+	<project name="iotivity" path="iotivity" groups="ubuntu"/>
+	<project name="lwm2m" path="lwm2m" groups="ubuntu"/>
+	<project name="mqttsn" path="mqttsn" groups="ubuntu"/>
+	<project name="mqttsn_gateway" path="mqttsn_gateway" groups="ubuntu"/>
 	<project name="ubuntu-build-service" path="ubuntu-build-service" groups="ubuntu"/>
 </manifest>
