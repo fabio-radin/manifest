@@ -12,7 +12,6 @@
 	<project name="artik-repos" path="artik-repos" groups="artik-ubuntu"/>
 	<project name="artik-ubuntu-meta" path="artik-ubuntu-meta" groups="artik-ubuntu"/>
 	<project name="artik-plugin" path="artik-plugin" groups="artik-ubuntu"/>
-	<project name="artik-plugin-artik710" path="artik-plugin-artik710" groups="artik-ubuntu"/>
 	<project name="bluez" path="bluez" groups="artik-ubuntu"/>
 	<project name="coap" path="coap" groups="artik-ubuntu"/>
 	<project name="connman" path="connman" groups="artik-ubuntu"/>
