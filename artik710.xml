@@ -15,7 +15,7 @@
 	<project name="bluez" path="bluez" groups="artik-ubuntu"/>
 	<project name="coap" path="coap" groups="artik-ubuntu"/>
 	<project name="connman" path="connman" groups="artik-ubuntu"/>
-	<project name="gst-plugins-camera-s5p6818" path="gst-plugins-camera-s5p6818" groups="artik-ubuntu"/>
+	<project name="gst-plugins-camera-s5p6818" path="gst-plugins-camera-s5p6818" groups="artik-ubuntu" revision="A710-OS-18.05.00"/>
 	<project name="gst-plugins-renderer" path="gst-plugins-renderer" groups="artik-ubuntu"/>
 	<project name="gst-plugins-scaler" path="gst-plugins-scaler" groups="artik-ubuntu"/>
 	<project name="gst-plugins-video-dec" path="gst-plugins-video-dec" groups="artik-ubuntu"/>
